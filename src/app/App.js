@@ -39,7 +39,7 @@ class App extends Component {
               <HeaderApp />
               <Home />  
             </Route>
-            <Route path="/api">
+            <Route path="/#/api">
               <Header />
               <APIHome />
             </Route>

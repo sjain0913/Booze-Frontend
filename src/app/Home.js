@@ -10,7 +10,7 @@ class Home extends Component {
                     <br></br>
                     <p>App currently in development!</p>
                     
-                <a href="/api">Link to Booze API</a>
+                <a href="/#/api">Link to Booze API</a>
                 </div>
             </div>
         )
