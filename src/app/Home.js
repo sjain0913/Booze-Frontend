@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/Home.css';
+import { Helmet } from 'react-helmet';
 
 class Home extends Component {
     render() {
@@ -10,7 +11,7 @@ class Home extends Component {
                     <br></br>
                     <p>App currently in development!</p>
                     
-                <a href="/#/api">Link to Booze API</a>
+                <a href="/api">Link to Booze API</a>
                 </div>
             </div>
         )

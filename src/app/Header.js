@@ -13,7 +13,6 @@ class Header extends Component {
         <p className = "App-description">Simple JSON/plain-text API to obtain data of</p>
         <p className = "App-description"> alcoholic products sold in the United States.</p>
       </div>
-
       );
     }
   }

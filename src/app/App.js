@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import {
-  HashRouter as Router,
+  BrowserRouter as Router,
   Switch,
   Route,
   Link
@@ -32,21 +32,21 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Router>
-        <div>
-          <Switch>
-            <Route exact path="/">
-              <HeaderApp />
-              <Home />  
-            </Route>
-            <Route path="/#/api">
-              <Header />
-              <APIHome />
-            </Route>
-            
-          </Switch>
-        </div>
-      </Router>
+        <Router>
+          <div>
+            <Switch>
+              <Route exact path="/">
+                <HeaderApp />
+                <Home />  
+              </Route>
+              <Route path="/api">
+                <Header />
+                <APIHome />
+              </Route>
+              
+            </Switch>
+          </div>
+        </Router>
       </div>
 
       );
