@@ -26,7 +26,7 @@ class APIHome extends Component {
                         <li>Calories (Only for Beer): Calories per serving</li>
                         <li>Carbohydrates (Only for Beer): Carbohydrates per serving</li>
                     </ul></p>
-                    <p>This data can be returned as either <b>JSON</b> or <b>plain-text (.txt)</b>.</p>
+                    <p>This data can be returned as either <b>JSON</b> or <b>plain-text (in .txt)</b>.</p>
                 </div>
             </div>
         )
