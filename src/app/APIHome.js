@@ -6,6 +6,11 @@ class APIHome extends Component {
     render() {
         return (
             <div className = "home">
+                <div>
+                    <Helmet>
+                        <title>Booze API</title>
+                    </Helmet>
+                </div>
                 <div className = "center">
                     <hr></hr>
                     <br></br>

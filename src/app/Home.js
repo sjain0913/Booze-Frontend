@@ -7,6 +7,11 @@ class Home extends Component {
     render() {
         return (
             <div className = "home">
+                <div>
+                    <Helmet>
+                        <title>Booze App</title>
+                    </Helmet>
+                </div>
                 <div className = "center">
                     <hr></hr>
                     <br></br>
