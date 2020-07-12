@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import './styles/Home.css';
+import { Helmet } from 'react-helmet'
 import {Link} from 'react-router-dom';
 
 class Home extends Component {
