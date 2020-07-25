@@ -20,7 +20,7 @@
   
   h1, h2, h3, h4, h5, h6 {
     font-family: abel-regular;
-    font-size: 2.5vmin;
+    font-size: 4.0vmin;
     color: #FCD116
    }
   
@@ -29,7 +29,7 @@
     text-align: center;
     font-family: abel-regular;
     font-weight: 500;
-    font-size: 1.8vmin;
+    font-size: 2.5vmin;
   }
 
   body {

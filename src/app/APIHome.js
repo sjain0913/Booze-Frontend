@@ -13,7 +13,6 @@ class APIHome extends Component {
                 </div>
                 <div className = "center">
                     <hr></hr>
-                    <br></br>
                     <h1>Overview</h1>
                     <p>The Booze API is a simple REST API which provides info for products of <b>Beer</b>, <b>Brandy</b>, <b>Gin</b>, <b>Liqueur</b>, <b>Rum</b>, <b>Tequila</b>, <b>Vodka</b> and <b>Whiskey</b> sold in the United States.</p>
                     <br></br>
